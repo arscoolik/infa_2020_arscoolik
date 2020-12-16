@@ -1,4 +1,4 @@
-dict = {}
+dic = {}
 while True:
     a = int(input())
     if a in dict:
