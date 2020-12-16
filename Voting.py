@@ -10,4 +10,4 @@ for i in range(kolichestvostudentov):
 list_d = list(dic.items())
 list_d.sort(key=lambda i: i[1], reverse= True)
 for i in range(len(list_d)):
-    print(list_d[0])
+    print(list_d[0][i])
